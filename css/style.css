@@ -449,10 +449,6 @@ body {
   display: flex;
 }
 
-.image-block--padding {
-  padding: 0rem 0rem 0rem 0rem;
-}
-
 .image-block__circle {
   top: 0;
   position: absolute;
@@ -494,6 +490,10 @@ body {
   position: relative;
   z-index: 5;
   border-radius: 1.25rem;
+}
+
+.image-block--padding {
+  padding: 0rem 0rem 0rem 0rem;
 }
 
 .header {
@@ -1013,7 +1013,7 @@ body {
           flex: 0 1 50%;
 }
 
-.reviews__button {
+.reviews__button .button {
   padding: 0.8125rem 4.375rem;
 }
 
@@ -1975,6 +1975,10 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .reviews__button {
+    width: 100%;
   }
 
   .download__storages {
